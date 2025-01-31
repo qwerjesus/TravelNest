@@ -949,56 +949,6 @@ Featured Style
 
 /* 
 ---------------------------------------------
-Video Style
---------------------------------------------- 
-*/
-
-.video {
-  background-image: url(../images/video-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 100px 0px 250px 0px;
-  position: relative;
-}
-
-.video-content {
-  margin-top: -240px;
-}
-
-.video .section-heading h2 {
-  color: #fff;
-}
-
-.video-content .video-frame {
-  position: relative;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-}
-
-.video-content .video-frame img {
-  border-radius: 10px;
-}
-
-.video-content .video-frame a {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-26px, -26px);
-  width: 52px;
-  height: 52px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 52px;
-  color: #f35525;
-  outline: 15px solid rgba(254, 85, 37, 0.5);
-  font-size: 18px;
-}
-
-/* 
----------------------------------------------
 Fun Facts Style
 --------------------------------------------- 
 */
@@ -1144,22 +1094,22 @@ Best Deal Style
 
 /* 
 ---------------------------------------------
-Properties Style
+Hotels Style
 --------------------------------------------- 
 */
 
-.properties .item {
+.hotels .item {
   background-color: #fafafa;
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 30px;
 }
 
-.properties .item img {
+.hotels .item img {
   border-radius: 10px;
 }
 
-.properties .item span.category {
+.hotels .item span.category {
   background-color: #fbd9cf;
   font-weight: 500;
   border-radius: 5px;
@@ -1170,34 +1120,34 @@ Properties Style
   margin-top: 25px;
 }
 
-.properties .item h4 {
+.hotels .item h4 {
   font-size: 19px;
   margin: 25px 0px;
 }
 
-.properties .item h4 a {
+.hotels .item h4 a {
   color: #1e1e1e;
 }
 
-.properties .item ul li {
+.hotels .item ul li {
   display: inline-block;
   font-size: 15px;
   color: #4a4a4a;
   margin-right: 20px;
 }
 
-.properties .item ul li span {
+.hotels .item ul li span {
   font-weight: 600;
   color: #1e1e1e;
 }
 
-.properties .item ul {
+.hotels .item ul {
   border-bottom: 1px solid #eaeaea;
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
 
-.properties .item h6 {
+.hotels .item h6 {
   font-size: 20px;
   color: #f35525;
   margin-top: 6px;
@@ -1206,7 +1156,7 @@ Properties Style
   margin-top: 30px;
 }
 
-.properties .item .main-button {
+.hotels .item .main-button {
   text-align: center;
 }
 
@@ -1408,18 +1358,18 @@ Properties Style
 --------------------------------------------- 
 */
 
-.properties ul.properties-filter {
+.hotels ul.options-filter {
   list-style: none;
   text-align: center;
   margin-bottom: 70px;
 }
 
-.properties ul.properties-filter li {
+.hotels ul.options-filter li {
   display: inline-block;
   margin: 5px 8px;
 }
 
-.properties ul.properties-filter li a {
+.hotels ul.options-filter li a {
   display: inline-block;
   text-align: center;
   font-size: 15px;
@@ -1432,32 +1382,32 @@ Properties Style
   transition: all .3s;
 }
 
-.properties ul.properties-filter li a.is_active {
+.hotels ul.options-filter li a.is_active {
   background-color: #f35525;
   color: #fff;
 }
 
-.properties ul.properties-filter li a.is_active:hover {
+.hotels ul.options-filter li a.is_active:hover {
   color: #fff;
 }
 
-.properties ul.properties-filter li a:hover {
+.hotels ul.options-filter li a:hover {
   color: #f35525;
 }
 
-.properties ul.pagination {
+.hotels ul.pagination {
   margin-top: 50px;
   text-align: center;
   width: 100%;
   display: inline-block;
 }
 
-.properties ul.pagination li {
+.hotels ul.pagination li {
   display: inline-block;
   margin: 0px 5px;
 }
 
-.properties ul.pagination li a {
+.hotels ul.pagination li a {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -1471,8 +1421,8 @@ Properties Style
   transition: all .3s;
 }
 
-.properties ul.pagination li a:hover,
-.properties ul.pagination li a.is_active {
+.hotels ul.pagination li a:hover,
+.hotels ul.pagination li a.is_active {
   background-color: #f35525;
   color: #fff;
 }

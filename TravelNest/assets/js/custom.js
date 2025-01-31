@@ -50,11 +50,11 @@
 		}
 	})
 
-	const elem = document.querySelector('.properties-box');
-	const filtersElem = document.querySelector('.properties-filter');
+	const elem = document.querySelector('.options-box');
+	const filtersElem = document.querySelector('.options-filter');
 	if (elem) {
 		const rdn_events_list = new Isotope(elem, {
-			itemSelector: '.properties-items',
+			itemSelector: '.options-items',
 			layoutMode: 'masonry'
 		});
 		if (filtersElem) {
